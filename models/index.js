@@ -19,7 +19,7 @@ Category.hasMany(Product, {
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
   through: ProductTag,
-  // as: 'tags',
+  as: 'tags',
 
   foreignKey: 'product_id',
   onDelete: 'SET NULL'
@@ -28,7 +28,7 @@ Product.belongsToMany(Tag, {
 // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, {
   through: ProductTag,
-  as: 'products',
+  as: 'product_tags',
 
   foreignKey: 'tag_id',
   onDelete: 'SET NULL'
