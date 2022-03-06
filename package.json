@@ -1,5 +1,5 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "back-end-commerce",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -11,18 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+https://github.com/KieranHannagan/back-end-commerce.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.3"
+  "bugs": {
+    "url": "https://github.com/KieranHannagan/back-end-commerce/issues"
   },
+  "homepage": "https://github.com/KieranHannagan/back-end-commerce#readme",
   "dependencies": {
-    "dotenv": "^10.0.0",
-    "express": "^4.17.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.13.0"
+    "sequelize": "^6.17.0"
   }
 }
