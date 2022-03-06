@@ -47,9 +47,9 @@ List of localhost endpoints:
 * api/tags
 
 
-Watch the [video](https://www.google.com) below for reference:
+Watch the [video](https://www.youtube.com/watch?v=YYb9-nQnW9I) below for reference:
 
-[![insomnia](public/img/insomnia.png)](https://www.google.com)
+[![insomnia](public/img/insomnia.png)](https://www.youtube.com/watch?v=YYb9-nQnW9I)
 
 
 
