@@ -3,7 +3,7 @@
   ## Description
 This is a CRUD application that allows users to preform queries on a theoretical e-commerce site. This repository is only the backend, there is no deployed application so if you would like to use it you will have to clone this repo (see [Installation](#installation)). This is a Node.js application that uses express for servers, MySQL for the database and sequelize as the ORM (refer to usage for `package.json`). 
 
-There are three models you can preform a query on, Products, Categories and Tags. Catagories have the outer-most layer of the relationship structure within the three models, giving it a `one to many` relationship. Then the products live within the catagories and all the tags live below the products. However, the tags have a `many-to-many` relationship with the products, meaning they can belong to multiple product lines.
+There are three models you can preform a query on, Products, Categories and Tags. Catagories have the outer-most layer of the relationship structure within the three models, giving it a `one to many` relationship. Additionally, the products live within the catagories and all the tags live below the products. However, the tags have a `many-to-many` relationship with the products, meaning they can belong to multiple product lines.
   
   * [Installation](#installation)
   * [Usage](#usage)
